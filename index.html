@@ -1,0 +1,230 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Hut</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    
+<header>
+    <div class="logo">
+            <img src="logo.png.jpg" alt="Berger Hut Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Aout">About</a></li>
+                <li><a href="#Menu">Menu</a></li>
+                <li><a href="#Reservations">Reservations</a></li>
+                <li><a href="#Contact Us">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section  class="hero">
+  <div class="hero-content">
+    <h1>Welcome to Burger Hut</h1>
+        <p>Experience the Teste of Perfection</p>
+        <a href="menu-gallery-section" 
+     class ="btn">Explore Our Menu</a>
+    
+  </div>
+</section>
+
+
+<!-- Your other sections go here -->
+<section class="about-section dark-theme">
+    
+<h2>About</h2>
+    
+    <div class="pos_cen">
+        <img class="img_bur" src="burger1.jpg" width="450" height="200">
+         <p>Welcome to Berger Hut, where nature meets comfort. 
+        offering breathtaking views and a peaceful atmosphere.
+        We strive to provide our guests with an unforgettable 
+        experience. Whether you're seeking adventure or relaxation, 
+        our cozy accommodations and friendly staff are here to 
+        make your stay memorable.
+
+        Join us and discover the beauty of the great outdoors 
+        while enjoying the comforts of home. 
+        We can't wait to welcome you to Berger Hut!</p>
+    </div>
+        </div>
+
+        <div class="testimonials">
+            <h3>What Our Guests Say</h3>
+            <div class="testimonial">
+              <pre>
+              <p>
+            "Staying at Berger Hut was an incredible 
+            experience. The views were breathtaking, 
+            the accommodations were cozy, 
+            and the staff was friendly and helpful. 
+            Can't wait to visit again!"</p></pre>
+
+<!-- Your other sections go here -->
+</section>
+
+
+<section class="menu-gallery-section">
+    <div class="container">
+        <h2>Menu</h2>
+        <div class="menu-gallery">
+            <div class="menu-item">
+                <h3>Breakfast</h3>
+                <ul>
+                    <li><i>Eggs Benedict</i></li>
+                    <li><i>Pancakes</i></li>
+                    <li><i>Fruit Salad</i></li>
+                    <li><i> Tea</i></li>
+                </ul>
+                <img src="breakfast.jpg.jpg">
+            </div>
+            <div class="menu-item">
+                <h3>Lunch</h3>
+                <ul>
+                    <li><i>Sandwiches</i></li>
+                    <li><i>Salads</i></li>
+                    <li><i>Soup of the Day</i></li>
+                    <li><i>Iced Tea</i></li>
+                </ul>
+                <img src="lunch.jpg.jpg">
+            </div>
+            <div class="menu-item">
+                <h3>Dinner</h3>
+                <ul>
+                    <li><i>Grilled Salmon</i></li>
+                    <li><i>Roasted Potatoes</i></li>
+                    <li><i>Veggie Stir-fry</i></li>
+                    <li><i>Wine Selection</i></li>
+                </ul>
+                <img src="dinner.jpg.jpg">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Your other sections go here -->
+
+<section class="reservations-section dark-theme">
+    <div class="container">
+        <h2>Reservations</h2>
+        <form class="reservation-form" id="reservationForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <div class="form-group">
+                <label for="guests">Number of Guests:</label>
+                <input type="number" id="guests" name="guests" min="1" required>
+            </div>
+            <button onclick="alert('Reservation Submited')" type="submit" class="cta-button">Submit Reservation</button>
+        </form>
+    </div>
+</section>
+
+<!-- Your other sections go here -->
+
+<section class="gallery-section dark-theme">
+    <div class="container">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="image1.jpg.jpg" alt="Image 1">
+            </div>
+            <div class="gallery-item">
+                <img src="image2.jpg.jpg" alt="Image 2">
+            </div>
+            <div class="gallery-item">
+                <img src="image3.jpg.jpg" alt="Image 3">
+            </div>
+            <div class="gallery-item">
+                <img src="image4.jpg.jpg" alt="Image 4">
+            </div>
+            <div class="gallery-item">
+                <img src="image5.jpg.jpg" alt="Image 5">
+            </div>
+            <div class="gallery-item">
+                <img src="image6.jpg.jpg" alt="Image 6">
+            </div>
+            <!-- Add more gallery items as needed -->
+        </div>
+    </div>
+</section>
+
+<!-- Your other sections go here -->
+
+<section class="contact-section dark-theme">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <div class="info-item">
+                <h3>Location</h3>
+                <p>Dharwad View Rd</p>
+            </div>
+            <div class="info-item">
+                <h3>Email</h3>
+                <p>info@bergerhut.com</p>
+            </div>
+            <div class="info-item">
+                <h3>Phone</h3>
+                <p>+91 8088 01 3818</p>
+            </div>
+        </div>
+        <form class="contact-form" ></form>
+             <div class="form-group1">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group1">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group1">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button onclick="alert('Message was Sent')"type="submit" class="cta-button">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<!-- Your other sections go here -->
+<div class="logo1">
+    <img src="logo.png.jpg" width= "150px", height="120px">
+</div>
+<footer class="dark-theme">
+    <div class="container">
+        <div class="footer-content">
+            
+                <ul class="quick-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Reservations</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-left">
+        <p>&copy; 2024 Berger Hut. All rights reserved.</p>
+    </div>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
